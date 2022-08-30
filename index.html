@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../STYLES/styles.css">
+    <title>Formulário The Oding Project</title>
+</head>
+<body>
+    <div class="banner">
+        <div class="logo-nome">
+            <img class="logo" src="../IMAGES/Logo Desenho Ricardo Novais Fundo Escuro.png">
+            <h2 class="name">Ricardo<br>Novais</h2>
+        </div>
+    </div>
+    <div class="main-form">
+        <div class="top">
+            <h2 class="text">Este é um site fictício. O principal motivo dele é demonstrar e praticar a habilidade de construir um formulário em uma página responsiva.</h2>
+        </div>
+        <div class="form">    
+              <form action="#" method="post">  
+                    <div class="couple"> 
+                        <div class="in-form">
+                            <label for="first-name">First Name*</label>   
+                            <input type="text" id="first-name" name="first-name" required> 
+                        </div>
+                        <div class="in-form">
+                            <label for="last-name">Last Name*</label>   
+                            <input type="text" id="last-name" name="last-name" required> 
+                        </div>
+                    </div> 
+                     
+  
+                    <div class="couple"> 
+ 
+                        <div class="in-form">
+                            <label for="email">Email*</label>   
+                            <input type="email" id="email" name="email" required> 
+                        </div>
+                        <div class="in-form">
+                            <label for="phone-number">Phone number*</label>   
+                            <input type="number" id="phone-number" name="phone-number" required> 
+                        </div>
+                    </div> 
+                    <div class="couple"> 
+
+                        <div class="in-form">
+                            <label for="password">Password*</label>   
+                            <input type="password" id="password" name="password"> 
+                            <div id="message">
+                                <h3>Password must contain the following:</h3>
+                                <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
+                                <p id="capital" class="invalid">A <b>capital (uppercase)</b> letter</p>
+                                <p id="number-p" class="invalid">A <b>number</b></p>
+                                <p id="length-p" class="invalid">Minimum <b>8 characters</b></p>
+                            </div>
+
+                        </div>
+                        <div class="in-form">
+                            <label for="confirm-password">Confirm password*</label>   
+                            <input type="password" id="confirm-password" required> 
+                            <div id="confirm">
+                                <p class="password-confirm-message">Must equal password</p>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="button-area">
+                        <button type="submit">Create Account</button>
+                        <p class="text-bellow">Already have an account? <a href="#">Log in</a></p>
+                    </div>
+                </div>
+              </form>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
