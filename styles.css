@@ -28,7 +28,7 @@ body {
 
 
 .banner {
-    background: url('../IMAGES/form-image-samambaia.jpg');
+    background: url("./IMAGES/form-image-samambaia.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
